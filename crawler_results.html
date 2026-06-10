@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crawler Results</title>
+</head>
+<body>
+    <h1>Crawling Results</h1>
+    <h3>Total Pages Crawled: {{ results.total_pages }}</h3>
+    <ul>
+        {% for page in results.pages_crawled %}
+            <li>{{ page }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

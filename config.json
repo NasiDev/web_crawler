@@ -1,0 +1,7 @@
+{
+    "start_url": "https://example.com",
+    "max_pages": 50,
+    "delay": 2,
+    "num_threads": 4,
+    "keywords": ["python", "web", "crawler", "AI", "technology"]
+}

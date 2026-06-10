@@ -1,0 +1,9 @@
+Flask
+requests
+beautifulsoup4
+textblob
+langdetect
+spacy
+transformers
+matplotlib
+sqlalchemy
